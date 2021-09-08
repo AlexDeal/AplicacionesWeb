@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluacion Practica 1</title>
+</head>
+<body>
+    <h1 align="center" id="inicio">Evaluacion Practica</h1>
+    <hr><hr>
+
+    <h2>Menu</h2>
+    <ol>
+        <li><a href="#formatos">Formatos</a></li>
+          <ol>
+            <li><a href="#titulos">Titulos</a></li>
+            <li><a href="#formatos">Formatos</a></li>
+            <li><a href="#formatos-adicionales">Formatos Adicionales</a></li>
+            <li><a href="#letras">Estilos de Letras</a></li>
+            <li><a href="#colores">Colores</a></li>
+          </ol>
+        <li><a href="#parrafos">Parrafos</a></li>
+          <ol>
+              <li><a href="#parrafos-citados">Parrafos Citados</a></li>
+          </ol>
+        <li><a href="#divisiones">Divisiones</a></li>
+        <li><a href="#listas">Listas</a></li>
+          <ol>
+              <li><a href="#listas-ordenadas">Listas Ordenadas</a></li>
+              <li><a href="#listas-no-ordenadas">Listas No Ordenadas</a></li>
+          </ol>
+        <li><a href="#enlaces">Enlaces</a></li>
+        <li><a href="#imagenes">Imagenes</a></li>
+        <li><a href="#tablas">Tablas</a></li>
+        <li><a href="#firma">Firma</a></li>
+      </ol>
+      <hr>
+      <hr>
+      <b><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br></b>
+      <hr>
+      <h2 id="formatos">Formatos</h2><hr>
+      <h3><font size=5 id="titulos">Titulos</font></h3>
+      <p><font size=5>HTML dispone de un elemento < Hx >< /Hx > que se pueden utilizar para definir que partes de nuestro texto deben ser consideradas como encabezados (de seccion, capitulo, etc). La etiqueta asigna un mayor tamaño de texto a los caracteres (en funcion de x, donde x es un numero entre el 1 y el 6). Ademas, se utiliza un tipo de letra en negrilla para la cabecera e incluye un salto de parrafo despues de esta cabecera</font></p>
+
+      <h3><font size=5 id="formatos">Formatos</font></h3>
+      <p><font size=5>HTML proporciona una etiqueta para gestionar la tipografia. Esta etiqueta, <b>FONT</b>, ha sido declarada obsoleta en HTML 4.01, por lo que se debe evitar su uso y tratar de usar en su lugar hojas de estilo (CSS).<br> Al utilizar esta etiqueta, se debe de hacer con precaucion al especificar la tipografia ya que se debe tener en cuenta que quiza el cliente no tenga dicha tipografia instalada, con lo que la vision que obtendra de la pagina no corresponda a la deseada. Los atributos soportados por FONT y que permiten definir las caracteristicas del tipo de letra son: <br><br> SIZE (Indica el tamaño de los caracteres, con valores de 1 a 7) <br> COLOR (color de los caracteres) <br>FACE (Tipografia a usar, se pueden especificar mas de una, separadas por comas) <br> Para esto, necesitamos utilizar la etiqueta < font>< /font> Un ejemplo de esto es: < font SIZE=1>1< /font></font></p>
+
+      <h3><font size=5 id="formatos-adicionales">Formatos Adicionales</font></h3>
+      <p><font size=5>Ademas de los formatos vistos anteriormente, HTML dispone tambien de algunos tipos logicos de letra, que los navegadores pueden representar de otra forma: <br><br>EM (Enfatizado) < em >< /em> <br>  STRONG (Destacado) < STRONG>< /STRONG> <br> CODE (Codigo de programa) < code>< /code> <br> CITE (Cita) < cite>< /cite></font></p>
+
+      <h3><font size=5 id="letras">Estilos de Letras</font></h3>
+      <p><font size=5>HTML proporciona un conjunto de etiquetas que permiten definir diferentes estilos de letras para el texto contenido entre las siguientes marcas: 
+          <br> < b>< /b> (Negrita) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < i>< /i> (Italica)
+          <br> < u>< /u> (Subrayado) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; < strike>< /strike> (Tachado)
+          <br> < sup>< /sup> (Superindice)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< sub>< /sub> (SubIndice)
+          <br> < blink>< /blink> (Parpadeo)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< tt>< /tt> (Teletipo)
+          <br> < big>< /big> (Grande) (Parpadeo)&nbsp;&nbsp;< small>< /small>(Pequeño)
+      </font></p>
+
+      <h3><font size=5 id="colores">Colores</font></h3>
+      <p><font size=5>Tambien podemos agregar colores a nuestros textos con la propiedad color seguido de un numero en exadecimal. <br> Un ejemplo de esta propiedad es: < font color="#800000">C< /font> </font></p>
+
+      <b><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br></b>
+      <hr>
+      <h2 id="parrafos">Parrafos</h2>
+      <hr><hr>
+      <p><font size=5>Para los parrafos, se utiliza la etiqueta < p>, HTML ignora los saltos de linea introducidos en el fichero original, por lo que para HTML todo el texto es continuo, por lo que un mecanismo que se utiliza para indicar principio y final de parrafo, esta esta indicando con las etiquetas < p> y < /p> </font></p>
+
+      <h3 id="parrafos-citados"><font size=5>Parrafos Citados</font></h3>
+      <p><font size=5>HTML dispone de un elemento BLOCKQUOTE, que permite representar parrafos citados literalmente de otro texto. Generalmente se representan identando a derecha e izquierda y con un salto de parrafo antes y despues del parrafo citado. <br> Se deberia evitar el uso de BLOCKQUOTE para identar texto, puesto que el navegador puede representarlo de otra forma, por ejemplo, no identado. <br>Ejemplo de la etiqueta BLOCKQUOTE: < blockquote>< /blockquote></font></p>
+    
+      <b><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br></b>
+      <hr>
+      <h2 id="divisiones">Divisiones</h2>
+      <hr><hr>
+      <p><font size=5>El elemento < div>< /div> permite dividir el texto en bloques, insertando entre los bloques un salto de linea simple, al igual que < br>, pero, a diferencia de este, admite los mismo atributos que P, es decir, se puede definir la alineacion del texto para cada bloque DIV <br><br>Las alineaciones soportadas por DIV, son establecidas mediante el parametro ALIGN, estas son: <br>LEFT, alineacion a la izquierda, es el activo por defecto <br> RIGHT, alineacion a la derecha <br>CENTER, centrado del texto.</font></p>
+
+      <b><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br></b>
+      <hr>
+      <h2 id="listas">Listas</h2>
+      <hr><hr>
+      <p> <font size=5>Las listas en HTML nos permite crear conjuntos de elementos en forma de lista dentro de una página, todos los cuales irán precedidos, generalmente, por un guión o número.</font></p>
+
+      <h3><font size=5 id="listas-ordenadas">Listas Ordenadas</font></h3>
+      <p><font size=5>Las listas en HTML ordenadas son aquellas que nos muestran los elementos de la lista en orden. Para representar el orden tendremos los elementos numerados. Es decir, cada uno de los elementos irá precedido de un número o letra que establezca su orden. <br> Las listas en HTML ordenadas se representan mediante el elemento OL. <br> Cada uno de los elementos de la lista ordenada se representará mediante el elemento LI. <br>
+         < ol> <br>
+            < li>Julio< /li> <br>
+            < li>Carmen< /li> <br>
+            < li>Ignacio< /li><br>
+            < li>Elena< /li><br>
+        < /ol><br>
+    </font></p>
+
+    <h3><font size=5 id="listas-no-ordenadas">Listas No Ordenadas</font></h3>
+      <p><font size=5>Las listas desordenadas en HTML nos sirven para mostrar los elementos sin ningún tipo de orden, simplemente precedidos por una viñeta que puede ser un punto, un cuadrado<br>
+        Para representar los elementos de la lista desordenada utilizamos el mismo elemento que con las listas ordenadas, es decir, el elemento li. <br>
+        < ul> <br>
+            < li>Elemento 1< /li> <br>
+            < li>Elemento 2< /li> <br>
+            ... <br>
+            < li>Elemento N< /li> <br>
+          < /ul>
+    </font></p>
+
+    <b><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br></b>
+    <hr>
+    <h2 id="enlaces">Enlaces</h2>
+    <hr><hr>
+    <p><font size=5>Lo más importante de los documentos HTML son los enlaces. Ya que mediante los enlaces en HTML podemos comunicar una página con otra. De esta forma, enlazando documentos HTML podemos acabar tejiendo lo que es Internet. Para crear un enlace en HTML utilizamos el elemento A con la siguiente sintaxis: < a>Contenido del enlace< /a>  <br><br> Pero solo con esto el enlace no tendrá mucha utilidad ya que el principal objetivo del enlace es enlazar a un destino. Para poder indicar el destino de un enlace utilizamos el atributo href. En valor del atributo href puede ser cualquier URI que represente un recurso. Es decir, una página, una parte de una página, una URL genérica, un archivo,… De esta forma el enlace en HTML lo crearemos con la sintaxis: < a href="URI">Contenido del enlace< /a></font></p>
+    <p><font size=5>Otra capacidad que tenemos en HTML es la de enlazar a una parte concreta del documento. Imagina que en un documento tenemos un título y varios capítulos. Y lo que queremos hacer desde otro documento HTML o bien desde el mismo documento es enlazar directamente al inicio de un capítulo. <br><br> La sintaxis sera: < a name="partedocumento">Contenido< /a></font></p>
+
+    <b><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br></b>
+    <hr>
+    <h2 id="imagenes">Imagenes</h2>
+    <hr><hr>
+
+    <p><font size=5>Para poder incluir imagenes y graficos en una paginam, utilizamos la etiqueta < img src="" alt=""> <br>IMG dispone de diversos atributos que nos permiten especificar que fichero de imagen se quiere usar, las medidas de esta, etc. El atributo que permite especificar que imagen se va a mostrar es SRC <br><br>Otros atributos importantes a usar en la etiqueta < img> y que permiten especificar las medidas de la imagen (ancho y alto), width y height. En caso de no especificar los atributos, el navegador mostrara la imagen con el tamaño que tenga el archivo original. <br>Un ejemplo de la etiqueta es:  < img src="img/logo-toyota.png"  width="30%" height="30%"></font></p>
+
+    <b><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br></b>
+    <hr>
+    <h2 id="tablas">Tablas</h2>
+    <hr><hr>
+
+    <p><font size=5>Las tablas es el elemento del lenguaje HTML que utilizaremos para mostrar información de forma agrupada. Ya sea texto, imágenes, vídeos,… <br>
+        El elemento table será el que nos ayudará para crear las tablas en HTML. <br>
+        Un mal uso de las tablas en HTML es el motivo de maquetación, uso que se dió a las tablas en los principios del lenguaje HTML. Algo que hoy en día es una mala práctica. Cambiando por un modelo de maquetación apoyado en capas. Para crear una tabla vamos a necesitar conocer, al menos, tres elementos: table, tr y td. Si bien existen otros cuantos que nos permitirán ampliar la funcionalidad de las tablas. <br>
+        El primer elemento es table. table es el elemento que representa las tablas y será el que agrupe al resto de elementos. Por lo tanto tiene sus etiquetas de inicio y cierre.
+        Siguiendo con la construcción de la tabla el siguiente elemento que necesitamos es tr. El elemento tr representa a una fila de la tabla. Por lo tanto tendremos tantos elementos tr como filas tenga la tabla. <br>
+        Así, si queremos tener una tabla de tres filas tendremos un código como el que sigue: <br>
+        < table> <br>
+            < tr> ... < /tr> <br>
+            < tr> ... < /tr> <br>
+            < tr> ... < /tr> <br>
+          < /table>  <br>
+          Una tabla de tres filas por cuatro columnas quedaría de la siguiente forma: <br>
+          < table> <br>
+            < tr> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 1 Columna 1< /td> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 1 Columna 2< /td> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 1 Columna 3< /td> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 1 Columna 4< /td> <br>
+            < /tr> <br>
+            < tr> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 2 Columna 1< /td> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 2 Columna 2< /td> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 2 Columna 3< /td> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 2 Columna 4< /td> <br>
+            < /tr> <br>
+            < tr> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 3 Columna 1< /td> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 3 Columna 2< /td> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 3 Columna 3< /td> <br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp< td>Fila 3 Columna 4< /td> <br>
+            < /tr> <br>
+          < /table>
+    </font></p>
+
+    <b><br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br>.<br></b>
+    <hr>
+    <h2 id="firma">Firma</h2>
+    <hr><hr>
+    <div>
+        <address>
+            Jesus Alejandro Serrano Morales
+            <br>
+            Matricula: 201651275
+            <br>
+            Mail: jesus.serranomo@alumno.buap.mx
+        </address>
+        <a href="#inicio">Inicio</a>
+    </div>
+
+</body>
+</html>
