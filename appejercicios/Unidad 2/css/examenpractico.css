@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+}
+.caja{
+    border: black 3px solid;
+    padding:10px;
+    margin: 10px;
+}
+
+.texto{
+    display: inline-block;
+    /* border: solid black 1px; */
+    position: absolute;
+    margin-left: 20px;
+}
+
+.caja1{
+    border: black 3px solid;
+    padding: 30px;
+    margin: 10px;
+}
+.texto1{
+    display: inline-block;
+    /* border: solid black 1px; */
+    position: absolute;
+    margin-left: 30px;
+}
+
+.cuadrado{
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    background: #C0C2F9;
+    display: inline-block;
+    box-shadow: rgb(150, 150, 150) 15px 10px;
+}
+
+.rectangulo{
+    border: black 1px solid;
+    height: 100px;
+    width: 200px;
+    background: #C0C2F9;
+    display: inline-block;
+    box-shadow: rgb(150, 150, 150) 15px 10px;
+}
+
+.rombo{
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    background: #C0C2F9;
+    display: inline-block;
+    transform: rotate(45deg);
+    box-shadow: rgb(150, 150, 150) 15px 10px;
+}
+
+.circulo{
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background: #C0C2F9;
+    border-radius: 50%;
+    box-shadow: rgb(150, 150, 150) 15px 10px;
+}
+
+.trapecio{
+    border: black 1px solid;
+    height: 100px;
+    width: 100px;
+    background: #C0C2F9;
+    display: inline-block;
+    transform: skewX(20deg); 
+    box-shadow: rgb(150, 150, 150) 15px 10px;
+}
+
+.triangulo{
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-top: 0;
+    border-bottom: 100px solid #C0C2F9; 
+    display: inline-block;
+    box-shadow: rgb(150, 150, 150) 15px 10px;
+}

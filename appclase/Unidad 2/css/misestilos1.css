@@ -1,0 +1,86 @@
+*{ /* Reset CSS*/
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.tam_text{
+    font-size: 25px;
+}
+
+.text_rojo{
+    color: red;
+}
+
+.texto5{
+    font-family: Algerian;
+}
+
+.texto6{
+    font-family: Arial;
+}
+
+#texto2{
+    font-size: 40px;
+}
+
+
+#texto4{
+    font-size: 30px;
+    color: blue;
+}
+
+
+#principal{
+    background-color: #E1FCE8;
+}
+
+#titulo1{
+    font-size: 35px;
+    color: purple;   
+}
+
+#titulo2{
+    font-size: 35px;
+    color: blue;
+}
+
+#lista1{
+    color: red; 
+    font-size: 20px; 
+    text-indent: 10px;
+    list-style-type: square;
+}
+
+
+#texto_lista1{
+    color: green;
+}
+
+#texto_lista2{
+    color: blue;
+}
+
+.content{
+    font-family: Broadway; 
+    font-style: italic; 
+    text-transform: capitalize; 
+    border-style: solid;
+    text-indent: 30px;
+    font-size: 20px; 
+}
+
+.content1{
+    color: red; 
+}
+
+.content2{
+    color:blue; 
+    text-decoration: underline; 
+    width: 300px; 
+    height: 100px; 
+    overflow: scroll;
+}

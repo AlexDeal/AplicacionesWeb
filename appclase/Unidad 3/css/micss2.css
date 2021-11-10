@@ -1,0 +1,30 @@
+.fondo1{
+    background: lightgray;
+}
+.fondo2{
+    background: lightblue;
+}
+.fondo3{
+    background: lightgreen;
+}
+.fondo4{
+    background: lightsalmon;
+}
+.fondo5{
+    background: lightcoral;
+}
+
+.medida_cm{
+    border: blue 1px solid;
+    height: 3cm;
+}
+
+.marco{
+    border: gray 1px solid;
+    height: 2cm;
+    background: #F7F5F5;
+}
+
+.fondo_barra{
+    background: #E3F2FD;
+}
